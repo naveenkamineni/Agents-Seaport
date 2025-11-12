@@ -1,11 +1,14 @@
 # A place Where GenAI Agents stop:
-1. LLM's
-2. Prompt Templates, Memory, Messages,..
-3. FrameWorks: Langchain:(langgraph library), llamaIndex
-4. Tools: functions, RestAPI's, Docker mcp tool servers,..
-5. Model Context Protocl: Client, Server
-6. MultiAgents: langgraph Workflows
-7. Retrieve Agument Generation
-8. local llm Model: Ollama (llama, qwen, mistral, gpt-oss, etc....
-9. Vector Databases: pinecone, weaviate, redis, chroma, etc....
-10. Cloud multilingual GenAI Services: Azure AI Services: Speech-Text translation vice-versa, etc..
+0. Important Concepts....updating.....
+python: :Asyncronous Programming(asynco, await, time), Type Annotations(TypedDict, Optinal, Union, Any(), all()..), Return Type based on function Parameters,.....
+1. LLM's: ChatGPT, Anthropic, Deepseek, llama, qwen,.....
+3. Prompt Templates, Memory, Messages,..
+4. FrameWorks: Langchain:(langgraph library), llamaIndex
+5. Tools: functions, RestAPI's, Docker mcp tool servers,..
+6. Agents: Reasoning + Action = ReAct : Capability of using perfect tool call
+7. Model Context Protocl: Client, Server
+8. MultiAgents: langgraph Workflows
+9. Retrieve Agument Generation
+10. local llm Model: Ollama (llama, qwen, mistral, gpt-oss, etc....
+11. Vector Databases: pinecone, weaviate, redis, chroma, etc....
+12. Cloud multilingual GenAI Services: Azure AI Services: Speech-Text translation vice-versa, etc..
