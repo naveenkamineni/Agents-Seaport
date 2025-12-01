@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="callAPI()">Call API Gateway</button>
+<pre id="output"></pre>
+
+<script>
+const Test_API_URL = "https://17h28vj084.execute-api.ap-south-1.amazonaws.com/agent";
+
+async function callAPI() {
+    try {
+        const response = await fetch(Test_API_URL, {
+            method: "GET",  // or POST
+            headers: { "Content-Type": "application/json" }
+        });
+
+        const text = await response.text();
+        document.getElementById("output").textContent = text;
+
+    } catch (error) {
+        document.getElementById("output").textContent = "❌ CORS ERROR\n" + error;
+    }
+}
+</script>
+
+</body>
+</html>
